@@ -1396,12 +1396,6 @@ button {
   }
 }
 
-@media screen and (max-width: 480px) {
-  .checkbox-label {
-    font-size: 10px;
-  }
-}
-
 .form-icon {
   display: inline-block;
   width: 16px;
