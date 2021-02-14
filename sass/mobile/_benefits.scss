@@ -16,6 +16,10 @@
 
 .benefits-list__title {
   text-align: center;
+
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
   font-weight: 700;
   font-size: $primary-font-size;
   line-height: $primary-line-height;

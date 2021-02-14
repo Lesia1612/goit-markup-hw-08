@@ -448,6 +448,8 @@ button {
 .site-nav__link {
   display: block;
   position: relative;
+  font-size: 14px;
+  line-height: 1.17;
   padding-top: 32px;
   padding-bottom: 32px;
   color: #212121;
@@ -633,6 +635,12 @@ button {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .benefits-list__title {
+    text-align: left;
+  }
 }
 
 @media screen and (max-width: 767px) {
