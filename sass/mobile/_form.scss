@@ -110,6 +110,17 @@
 .checkbox-label {
   display: inline-block;
   display: flex;
+  font-size: 12px;
+  line-height: 1.17;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 10px;
+  }
 }
 
 .form-icon {
