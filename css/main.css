@@ -143,7 +143,6 @@ img {
 .menu-container {
   display: none;
   background-color: #ffffff;
-  padding: 48px 83px 48px 40px;
 }
 
 .menu-container.is-open {
@@ -152,7 +151,7 @@ img {
 
 @media screen and (max-width: 767px) {
   .menu-container {
-    position: absolute;
+    position: fixed;
     z-index: 2;
     top: 0;
     left: 0;
@@ -209,10 +208,6 @@ img {
   margin-bottom: 32px;
 }
 
-.mob-contacts__item.tel {
-  margin-top: 302px;
-}
-
 .mob-contacts__item.mail {
   margin-top: 32px;
 }
@@ -237,6 +232,21 @@ img {
 
 .mob-menu__link--current {
   color: #2196f3;
+}
+
+.mobile-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 100vh;
+  padding: 40px 48px;
 }
 
 .page-footer {
